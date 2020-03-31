@@ -27,6 +27,6 @@ func move_checks():
 	pass
 
 func _on_Area2D_body_entered(body):
-	if(body.is_in_group("balls")):
-		body.speed.x = -body.speed.x
+	#if(body.is_in_group("balls")):
+	#	body.speed.x = -body.speed.x
 	pass # Replace with function body.
